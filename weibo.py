@@ -18,8 +18,8 @@ sys.setdefaultencoding('utf-8')
 #        user_id = (int)(sys.argv[1])
 #else:
 #        user_id = (int)(raw_input(u"please_input_id: "))
-user_id = YOUR_USER_ID
-cookie = {"Cookie": "#YOUR_COOKIE"}
+user_id = 1565668374
+cookie = {"Cookie": "luicode%3D10000011%26lfid%3D231093_-_selffollowed%26fid%3D1076031565668374%26uicode%3D20000174"}
 url = 'http://weibo.cn/u/%d?filter=1&page=1'%user_id
 html = requests.get(url, cookies = cookie).content
 print u'user_id和cookie读入成功'
